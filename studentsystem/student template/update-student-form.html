@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Update Student</title>
+
+	<link type="text/css" rel="stylesheet" href="css/style.css">
+	<link type="text/css" rel="stylesheet" href="css/add-student-style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="update-student.js" type="text/javascript"></script>
+</head>
+
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<h2>Foobar University</h2>
+		</div>
+	</div>
+
+	<div id="container">
+
+		<h3>Update Student</h3>
+		<table>
+			<input type="hidden" name="studentId">
+			<tbody>
+				<tr>
+					<td><label>First name :</label></td>
+					<td><input type="text" name="firstName"></td>
+				</tr>
+				<tr>
+					<td><label>Last name :</label></td>
+					<td><input type="text" name="lastName"></td>
+				</tr>
+				<tr>
+					<td><label>Email :</label></td>
+					<td><input type="text" name="email"></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="button" value="Save" class="save" onclick="submit()"></td>
+				</tr>
+			</tbody>
+		</table>
+
+
+		<div style="clear: both;"></div>
+
+		<p>
+			<a href="list-student.html">Back to list</a>
+		</p>
+	</div>
+
+</body>
+
+</html>
